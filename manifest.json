@@ -1,0 +1,21 @@
+{
+	"format_version": 2,
+	"header": {
+		"name": "Item Use Detect Example",
+		"description": "Created by Lactyy | @TabunLactyy\n§c§o⚠ワールドの設定の「ホリデークリエイターの特徴」をオンにしてください⚠",
+		"min_engine_version": [ 1,16,0 ],
+		"version": [ 1,0,0 ],
+		"uuid": "a8983c7d-4430-441d-bf1c-a429b77ed1e5"
+	},
+	"modules": [
+		{
+			"type": "data",
+			"version": [ 1,0,0 ],
+			"uuid": "402d936b-5d92-4b79-a87d-090d9ecaaf70"
+		}
+	],
+	"metadata": {
+		"authors": [ "Lactyy" ],
+		"url": "https://twitter.com/TabunLactyy"
+	}
+}

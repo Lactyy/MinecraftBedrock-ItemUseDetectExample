@@ -1,0 +1,28 @@
+{
+	"format_version": "1.16.100", //1.16.200以上だと正常に現時点では動きません.
+	"minecraft:item": {
+		"description": {
+			"identifier": "lacty:example_item" //アイテムのID /give @s <アイテムのID>
+		},
+		"components": {
+			"minecraft:icon": {
+				"texture": "potion_bottle_lingering" //使うテクスチャを指定
+			},
+			"minecraft:on_use": {
+				"on_use": { //アイテムが使われたのを検知
+					"event": "on_use",
+					"target": "self"
+				}
+			}
+		},
+		"events": {
+			"on_use": {
+				"run_command": {
+					"command": [
+						"tag @s add using_example_item" // /tagではなくtag(スラッシュをなくす.)
+					]
+				}
+			}
+		}
+	}
+}
